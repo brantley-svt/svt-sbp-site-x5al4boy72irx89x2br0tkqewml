@@ -1,0 +1,12 @@
+{
+    "name": "svt-sbp-site-x5al4boy72irx89x2br0tkqewml",
+    "description": "SVT Engineering Norfolk VA Gen4TestSite",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
