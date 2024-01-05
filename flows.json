@@ -40,7 +40,7 @@
         "id": "a23a10dec4097115",
         "type": "debug",
         "z": "c56e169aa9cbe3e5",
-        "name": "debug_foo",
+        "name": "debug_bar",
         "active": true,
         "tosidebar": true,
         "console": false,
