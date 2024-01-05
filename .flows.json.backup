@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "d2f339a689bc9eff",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "5ec1024ba1b2abc0",
         "type": "debug",
         "z": "c56e169aa9cbe3e5",
@@ -52,5 +60,51 @@
                 "5ec1024ba1b2abc0"
             ]
         ]
+    },
+    {
+        "id": "b9554a1b5563d589",
+        "type": "inject",
+        "z": "d2f339a689bc9eff",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "6717a65a2f290b87"
+            ]
+        ]
+    },
+    {
+        "id": "6717a65a2f290b87",
+        "type": "debug",
+        "z": "d2f339a689bc9eff",
+        "name": "fizz",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 240,
+        "wires": []
     }
 ]
