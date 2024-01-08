@@ -36,7 +36,7 @@
         "id": "85d7700bc5debc36",
         "type": "inject",
         "z": "c56e169aa9cbe3e5",
-        "name": "fizz",
+        "name": "bar",
         "props": [
             {
                 "p": "payload"
