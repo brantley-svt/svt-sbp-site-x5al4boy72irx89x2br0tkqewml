@@ -36,7 +36,7 @@
         "id": "85d7700bc5debc36",
         "type": "inject",
         "z": "c56e169aa9cbe3e5",
-        "name": "",
+        "name": "fizz",
         "props": [
             {
                 "p": "payload"
@@ -53,7 +53,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 500,
+        "x": 490,
         "y": 200,
         "wires": [
             [

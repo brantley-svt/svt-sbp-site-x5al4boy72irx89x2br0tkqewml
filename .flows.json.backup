@@ -151,5 +151,50 @@
         "x": 300,
         "y": 360,
         "wires": []
+    },
+    {
+        "id": "44d1c7bd33624634",
+        "type": "inject",
+        "z": "d2f339a689bc9eff",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 80,
+        "wires": [
+            [
+                "983881c446e79d56"
+            ]
+        ]
+    },
+    {
+        "id": "983881c446e79d56",
+        "type": "debug",
+        "z": "d2f339a689bc9eff",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 80,
+        "wires": []
     }
 ]
